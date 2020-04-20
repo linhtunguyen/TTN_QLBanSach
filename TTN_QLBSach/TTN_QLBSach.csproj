@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBAcess.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +58,12 @@
     </Compile>
     <Compile Include="FormBan.Designer.cs">
       <DependentUpon>FormBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBanChay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBanChay.Designer.cs">
+      <DependentUpon>FormBanChay.cs</DependentUpon>
     </Compile>
     <Compile Include="FormNhap.cs">
       <SubType>Form</SubType>
@@ -72,6 +79,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormBanChay.resx">
+      <DependentUpon>FormBanChay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimKiem.resx">
+      <DependentUpon>FormTimKiem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
